@@ -1,23 +1,24 @@
 
-> Status: **v0.1 prototype**, work-in-progress...
+> Status: **v0.1 prototype**, work-in-progress, see [Why this exists](#Why-this-exists)
 
 # Ableton SDK - Model Context Protocol (MCP) Server
 
-An **Ableton SDK MCP server** made via Ableton Extensions SDK + **Agent Skills** to allow AI coding agents operate Ableton Live 12, for long-running music production sessions.
-
-
-> **Note:** Acknowledging several existing Ableton MCPs: [ableton-mcp](https://github.com/ahujasid/ableton-mcp), [extended](https://github.com/jon-wrennall/ableton-mcp-extended), [producer-pal](https://github.com/adamjmurray/producer-pal).  
-This one is built with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) with a different approach: **allowing Claude Code directly execute TypeScript inside Live**, instead of hard-coding tools, so all operations supported by the SDK can be used by Claude Code.
-
+An **Ableton SDK MCP server** made via Ableton Extensions SDK + **Agent Skills** to allow AI coding agents operate Ableton Live, for long-running music production sessions.
 
 https://github.com/user-attachments/assets/5ef1fc26-631a-4892-8b87-1697b382a9d6
 
 
+## Why this exists
 
-This repository gives your AI coding agent the following resources:
+>Acknowledging several existing Ableton MCPs: [ableton-mcp](https://github.com/ahujasid/ableton-mcp), [extended](https://github.com/jon-wrennall/ableton-mcp-extended), [producer-pal](https://github.com/adamjmurray/producer-pal).
+
+This one is built purely with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) with a different approach: **allowing Claude Code directly execute TypeScript inside Live**, unlike previous Live MCPs that hard-codes tools (e.g., adding-clips, adding-notes). So ideally, Claude Code operates a Live session with all operations supported by the SDK. Honestly I don't know which approach works better so I built this to see how it works...
+
+All together, this repository gives your AI coding agent the following resources:
  - **An Ableton Extension** with a Live UI for confirm/progress
  - **An MCP server** built with Ableton Extensions SDK 
  - **Knowledge skills** about Ableton + music-making expertise (work-in-progress)
+
 
 
 
