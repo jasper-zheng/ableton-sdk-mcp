@@ -7,7 +7,11 @@ An **Ableton SDK MCP server** made via Ableton Extensions SDK + **Agent Skills**
 
 
 > **Note:** Acknowledging several existing Ableton MCPs: [ableton-mcp](https://github.com/ahujasid/ableton-mcp), [extended](https://github.com/jon-wrennall/ableton-mcp-extended), [producer-pal](https://github.com/adamjmurray/producer-pal).  
-This one is built with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) and took a different approach: **allowing Claude Code directly execute TypeScript inside Live**, instead of hard-coding tools, so all operations supported by the SDK can be used by Claude Code.
+This one is built with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) with a different approach: **allowing Claude Code directly execute TypeScript inside Live**, instead of hard-coding tools, so all operations supported by the SDK can be used by Claude Code.
+
+
+https://github.com/user-attachments/assets/5ef1fc26-631a-4892-8b87-1697b382a9d6
+
 
 
 This repository gives your AI coding agent the following resources:
