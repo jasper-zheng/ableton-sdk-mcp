@@ -1,0 +1,13 @@
+{
+  "name": "ableton-agent-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agentic system for Ableton Live: in-Live kernel (Extensions SDK) + MCP bridge + Claude Code skills. Prototype.",
+  "scripts": {
+    "setup": "npm --prefix kernel install && npm --prefix abletonsdk-mcp-server install && npm run build",
+    "build": "npm --prefix kernel run build && npm --prefix abletonsdk-mcp-server run build",
+    "package": "npm --prefix kernel run package",
+    "start:kernel": "npm --prefix kernel start -- --live \"${LIVE_APP:-/Applications/Ableton Live 12 Beta.app}\"",
+    "test": "node kernel/test-action.mjs && cd abletonsdk-mcp-server && node test-mcp.mjs"
+  }
+}

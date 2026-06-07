@@ -1,0 +1,12 @@
+# build output
+node_modules/
+dist/
+*.ablx
+*.tsbuildinfo
+
+# local / env
+.env
+.DS_Store
+*.log
+
+extensions-sdk-1.0.0-beta.0/

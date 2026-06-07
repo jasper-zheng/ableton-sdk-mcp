@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "abletonsdk": {
+      "command": "node",
+      "args": ["abletonsdk-mcp-server/dist/index.js"],
+      "env": {}
+    }
+  }
+}
