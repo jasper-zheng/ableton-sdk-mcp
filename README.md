@@ -5,7 +5,13 @@
 
 An **Ableton SDK MCP server** made via Ableton Extensions SDK + **Agent Skills** to allow AI coding agents operate Ableton Live, for long-running music production sessions.
 
-https://github.com/user-attachments/assets/5ef1fc26-631a-4892-8b87-1697b382a9d6
+
+Prompt: Transpose all tonal MIDI clips two semitones down
+
+
+https://github.com/user-attachments/assets/4c91f96d-b491-41b7-8851-bf189f0739eb
+
+
 
 
 ## Why this exists
