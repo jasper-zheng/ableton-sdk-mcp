@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/4c91f96d-b491-41b7-8851-bf189f0739eb
 
 >Acknowledging several existing Ableton MCPs: [ableton-mcp](https://github.com/ahujasid/ableton-mcp), [extended](https://github.com/jon-wrennall/ableton-mcp-extended), [producer-pal](https://github.com/adamjmurray/producer-pal).
 
-This one is built purely with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) with a different approach: **allowing Claude Code directly generate and run TypeScript inside Live**, unlike previous Live MCPs that hard-codes tools (e.g., adding-clips, adding-notes). So ideally, Claude Code operates a Live session with codes, using all operations supported by the SDK. Honestly I don't know which approach works better so I built this to see how it works...
+This one is built purely with [Ableton Extensions SDK](https://www.ableton.com/en/live/extensions) with a different approach: **allowing coding agents directly generate and run TypeScript inside Live**, unlike previous Live MCPs that hard-codes tools (e.g., adding-clips, adding-notes). So ideally, Claude Code operates a Live session with codes, using all operations supported by the SDK. Honestly I don't know which approach works better so I built this to see how it works...
 
 All together, this repository gives your AI coding agent the following resources:
  - **An Ableton Extension** with a Live UI for confirm/progress
